@@ -101,15 +101,15 @@ export default function Certificates() {
   }
 
   return (
-    <section id="certificates" className="relative w-full py-20 px-4 bg-background">
+    <section id="certificates" className="relative w-full py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8 bg-background">
       <div className="container mx-auto max-w-7xl">
         {/* Header */}
-        <div className="text-center mb-16 space-y-4">
+        <div className="text-center mb-8 sm:mb-12 md:mb-16 space-y-3 sm:space-y-4">
           <div className="flex items-center justify-center gap-3 mb-4">
-            <Award className="text-accent" size={32} />
+            <Award className="text-accent w-7 h-7 sm:w-8 sm:h-8 md:w-[32px] md:h-[32px]" />
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold gradient-text">Achievements & Certificates</h2>
-          <p className="text-foreground/60 text-lg max-w-2xl mx-auto">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold gradient-text">Achievements & Certificates</h2>
+          <p className="text-foreground/60 text-sm sm:text-base md:text-lg max-w-2xl mx-auto px-4">
             Recognition of my technical excellence and participation in competitive events
           </p>
         </div>
@@ -118,14 +118,14 @@ export default function Certificates() {
           {/* Scroll Container */}
           <div
             ref={scrollContainerRef}
-            className="flex gap-6 overflow-x-auto pb-6 snap-x snap-mandatory scroll-smooth hide-scrollbar"
+            className="flex gap-4 sm:gap-6 overflow-x-auto pb-6 snap-x snap-mandatory scroll-smooth hide-scrollbar"
             style={{ scrollBehavior: "smooth" }}
           >
             {certificates.map((cert) => (
               <div
                 key={cert.id}
                 onClick={() => setSelectedCert(cert)}
-                className="flex-shrink-0 w-96 group/cert cursor-pointer snap-center transition-all duration-500 hover:scale-125 hover:z-10 group-hover:scale-90 group-hover/cert:scale-125"
+                className="flex-shrink-0 w-[85vw] sm:w-96 md:w-[28rem] group/cert cursor-pointer snap-center transition-all duration-500 hover:scale-125 hover:z-10 group-hover:scale-90 group-hover/cert:scale-125"
               >
                 <div className="relative rounded-3xl overflow-hidden bg-card border border-border transition-all duration-500 h-80 hover:border-accent/50 hover:shadow-2xl hover:shadow-accent/20">
                   {/* Full Image Container */}

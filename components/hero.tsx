@@ -58,71 +58,71 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative w-full h-screen flex items-center justify-center overflow-hidden"
+      className="relative w-full min-h-screen flex items-center justify-center overflow-hidden"
     >
       <canvas ref={canvasRef} className="absolute inset-0 w-full h-full" />
 
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-background pointer-events-none" />
 
-      <div className="relative z-10 container mx-auto px-4 max-w-6xl h-full flex items-center">
-        <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center w-full">
+      <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl h-full flex items-center py-20 md:py-0">
+        <div className="grid md:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center w-full">
           {/* Left Content */}
-          <div className="space-y-4 animate-slide-in">
+          <div className="space-y-3 md:space-y-4 animate-slide-in">
             <div className="space-y-2">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold gradient-text leading-tight whitespace-nowrap">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold gradient-text leading-tight break-words overflow-wrap-anywhere">
                 Rohan M Pednekar
               </h1>
-              <p className="text-lg md:text-xl text-accent font-semibold animate-text-shimmer bg-gradient-to-r from-accent via-primary to-accent bg-clip-text text-transparent bg-[length:200%_auto]">
+              <p className="text-base sm:text-lg md:text-xl text-accent font-semibold animate-text-shimmer bg-gradient-to-r from-accent via-primary to-accent bg-clip-text text-transparent bg-[length:200%_auto]">
                 Full Stack Developer & AI/ML Specialist
               </p>
             </div>
 
-            <p className="text-foreground/70 text-base md:text-lg leading-relaxed animate-fade-in-up">
+            <p className="text-foreground/70 text-sm sm:text-base md:text-lg leading-relaxed animate-fade-in-up">
               Aspiring Software Developer specializing in AI/ML and Full-Stack development, with hands-on hackathon
               experience and strong programming fundamentals. Finalist in 4 prestigious hackathons (2025).
             </p>
 
-            <div className="flex flex-wrap gap-3">
+            <div className="flex flex-wrap gap-2 sm:gap-3">
               <a
                 href="#projects"
-                className="px-5 py-2.5 rounded-full bg-primary text-primary-foreground hover:bg-primary/80 transition-all hover:scale-105 flex items-center gap-2 font-semibold text-sm md:text-base"
+                className="px-4 sm:px-5 py-2 sm:py-2.5 rounded-full bg-primary text-primary-foreground hover:bg-primary/80 transition-all hover:scale-105 flex items-center gap-2 font-semibold text-xs sm:text-sm md:text-base"
               >
                 View My Work
-                <ArrowRight size={18} />
+                <ArrowRight size={16} className="sm:w-[18px] sm:h-[18px]" />
               </a>
               <a
                 href="https://github.com/Rohan143-mp"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-5 py-2.5 rounded-full border border-accent text-accent hover:bg-accent/10 transition-all hover:scale-105 flex items-center gap-2 font-semibold text-sm md:text-base"
+                className="px-4 sm:px-5 py-2 sm:py-2.5 rounded-full border border-accent text-accent hover:bg-accent/10 transition-all hover:scale-105 flex items-center gap-2 font-semibold text-xs sm:text-sm md:text-base"
               >
                 GitHub Profile
-                <ArrowRight size={18} />
+                <ArrowRight size={16} className="sm:w-[18px] sm:h-[18px]" />
               </a>
             </div>
 
-            <div className="flex gap-6 pt-2">
+            <div className="flex gap-4 sm:gap-6 pt-2">
               <div>
-                <div className="text-2xl md:text-3xl font-bold gradient-text">13+</div>
-                <p className="text-foreground/60 text-xs md:text-sm">Projects Completed</p>
+                <div className="text-xl sm:text-2xl md:text-3xl font-bold gradient-text">13+</div>
+                <p className="text-foreground/60 text-xs sm:text-sm">Projects Completed</p>
               </div>
               <div>
-                <div className="text-2xl md:text-3xl font-bold gradient-text">4</div>
-                <p className="text-foreground/60 text-xs md:text-sm">Hackathon Finalist</p>
+                <div className="text-xl sm:text-2xl md:text-3xl font-bold gradient-text">4</div>
+                <p className="text-foreground/60 text-xs sm:text-sm">Hackathon Finalist</p>
               </div>
               <div>
-                <div className="text-2xl md:text-3xl font-bold gradient-text">10+</div>
-                <p className="text-foreground/60 text-xs md:text-sm">Skills Mastered</p>
+                <div className="text-xl sm:text-2xl md:text-3xl font-bold gradient-text">10+</div>
+                <p className="text-foreground/60 text-xs sm:text-sm">Skills Mastered</p>
               </div>
             </div>
           </div>
 
           {/* Right - Profile Image with Transparent Background */}
-          <div className="relative flex items-center justify-start">
-            <div className="relative w-full max-w-md aspect-square">
+          <div className="relative flex items-center justify-center md:justify-start mt-8 md:mt-0">
+            <div className="relative w-full max-w-xs sm:max-w-sm md:max-w-md aspect-square">
               {/* 3D Circle behind profile photo - smaller than photo */}
-              <div className="absolute inset-6 rounded-full bg-gradient-to-br from-primary/20 to-accent/30 blur-sm -z-10 transform translate-x-[7.25rem] translate-y-2" />
-              <div className="relative w-full h-full rounded-full overflow-hidden transform translate-x-[7.25rem]">
+              <div className="absolute inset-4 sm:inset-6 rounded-full bg-gradient-to-br from-primary/20 to-accent/30 blur-sm -z-10 transform translate-x-0 md:translate-x-[7.25rem] translate-y-2 -translate-y-2 md:-translate-y-4" />
+              <div className="relative w-full h-full rounded-full overflow-hidden transform translate-x-0 md:translate-x-[7.25rem] -translate-y-2 md:-translate-y-4">
                 <Image
                   src="/images/profile.png"
                   alt="Rohan M Pednekar Profile"

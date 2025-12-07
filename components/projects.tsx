@@ -22,7 +22,7 @@ const projects: Project[] = [
     category: "AI & Machine Learning",
     description:
       "Advanced AI-powered legal document verification system using machine learning algorithms for automated document analysis and fraud detection.",
-    technologies: ["Python", "ML", "NLP"],
+    technologies: ["Python","React", "Node.js", "ML", "NLP"],
     image: "/ai-legal-document-verification-interface.jpg",
     github: "https://github.com/Rohan143-mp/AI-Legal-Verifier",
     featured: true,
@@ -133,7 +133,7 @@ const projects: Project[] = [
     category: "Web Development",
     description:
       "Blood donation platform connecting donors and recipients with scheduling, donor management, and medical history tracking.",
-    technologies: ["React", "Node.js", "MongoDB"],
+    technologies: ["React Native", "Node.js", "MongoDB"],
     image: "/blood-donation-booking-platform.jpg",
     featured: false,
   },
@@ -176,13 +176,13 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="relative w-full py-20 px-4 bg-gradient-to-b from-background via-card/30 to-background"
+      className="relative w-full py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-background via-card/30 to-background"
     >
       <div className="container mx-auto max-w-7xl">
         {/* Header */}
-        <div className="text-center mb-16 space-y-4">
-          <h2 className="text-4xl md:text-5xl font-bold gradient-text">Featured Projects</h2>
-          <p className="text-foreground/60 text-lg max-w-2xl mx-auto">
+        <div className="text-center mb-8 sm:mb-12 md:mb-16 space-y-3 sm:space-y-4">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold gradient-text">Featured Projects</h2>
+          <p className="text-foreground/60 text-sm sm:text-base md:text-lg max-w-2xl mx-auto px-4">
             Explore my diverse portfolio of 13+ projects spanning AI/ML, web development, and desktop applications
           </p>
         </div>
@@ -191,14 +191,14 @@ export default function Projects() {
           {/* Scroll Container */}
           <div
             ref={scrollContainerRef}
-            className="flex gap-6 overflow-x-auto pb-6 snap-x snap-mandatory scroll-smooth hide-scrollbar"
+            className="flex gap-4 sm:gap-6 overflow-x-auto pb-6 snap-x snap-mandatory scroll-smooth hide-scrollbar"
             style={{ scrollBehavior: "smooth" }}
           >
             {projects.map((project) => (
               <div
                 key={project.id}
                 onClick={() => handleProjectClick(project)}
-                className="flex-shrink-0 w-96 group/card cursor-pointer snap-center transition-all duration-500 hover:scale-125 hover:z-10 group-hover:scale-90 group-hover/card:scale-125"
+                className="flex-shrink-0 w-[85vw] sm:w-96 md:w-[28rem] group/card cursor-pointer snap-center transition-all duration-500 hover:scale-125 hover:z-10 group-hover:scale-90 group-hover/card:scale-125"
               >
                 <div className="relative rounded-3xl overflow-hidden bg-card border border-border transition-all duration-500 h-80 hover:border-accent/50 hover:shadow-2xl hover:shadow-primary/20">
                   {/* Full Image Container */}
@@ -221,11 +221,11 @@ export default function Projects() {
                       <p className="text-sm text-white/90 mb-4 line-clamp-3">{project.description}</p>
 
                       {/* Tech badges */}
-                      <div className="flex flex-wrap gap-2 justify-center">
-                        {project.technologies.slice(0, 3).map((tech) => (
+                      <div className="flex flex-wrap gap-2 justify-center items-center max-w-full">
+                        {project.technologies.map((tech) => (
                           <span
                             key={tech}
-                            className="px-3 py-1 rounded-full bg-white/20 backdrop-blur-sm text-white text-xs font-medium"
+                            className="px-3 py-1.5 rounded-full bg-white/20 backdrop-blur-sm text-white text-xs font-medium whitespace-nowrap"
                           >
                             {tech}
                           </span>
