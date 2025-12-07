@@ -54,7 +54,7 @@ function Header() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "w-10 h-10 rounded-full bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center group-hover:scale-110 transition-transform overflow-hidden border-2 border-primary/50 p-1",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                src: "/images/logo.png",
+                                src: "./images/logo.png",
                                 alt: "RP Logo",
                                 width: 32,
                                 height: 32,
@@ -279,7 +279,7 @@ function Hero() {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                             className: "text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold gradient-text leading-tight break-words overflow-wrap-anywhere",
-                                            children: "Rohan M Pednekar"
+                                            children: "Rohan Mahesh Pednekar"
                                         }, void 0, false, {
                                             fileName: "[project]/components/hero.tsx",
                                             lineNumber: 72,
@@ -458,7 +458,7 @@ function Hero() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "relative w-full h-full rounded-full overflow-hidden transform translate-x-0 md:translate-x-[7.25rem] -translate-y-2 md:-translate-y-4",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                            src: "/images/profile.png",
+                                            src: "./images/profile.png",
                                             alt: "Rohan M Pednekar Profile",
                                             fill: true,
                                             className: "object-contain object-center",
@@ -534,7 +534,7 @@ const projects = [
             "ML",
             "NLP"
         ],
-        image: "/ai-legal-document-verification-interface.jpg",
+        image: "./ai-legal-document-verification-interface.jpg",
         github: "https://github.com/Rohan143-mp/AI-Legal-Verifier",
         featured: true
     },
@@ -549,7 +549,7 @@ const projects = [
             "NumPy",
             "Scikit-learn"
         ],
-        image: "/music-recommendation-system-dashboard.jpg",
+        image: "./music-recommendation-system-dashboard.jpg",
         featured: true
     },
     {
@@ -562,7 +562,7 @@ const projects = [
             "Node.js",
             "MongoDB"
         ],
-        image: "/modern-web-app-interface.jpg",
+        image: "./modern-web-app-interface.jpg",
         featured: true
     },
     {
@@ -575,7 +575,7 @@ const projects = [
             "Audio API",
             "Swing"
         ],
-        image: "/audio-processing-application.jpg",
+        image: "./audio-processing-application.jpg",
         featured: true
     },
     {
@@ -588,7 +588,7 @@ const projects = [
             "NLP",
             "Speech Recognition"
         ],
-        image: "/voice-assistant-interface.png",
+        image: "./voice-assistant-interface.png",
         featured: true
     },
     {
@@ -601,7 +601,7 @@ const projects = [
             "Socket Programming",
             "Threading"
         ],
-        image: "/chat-application-messaging-interface.jpg",
+        image: "./chat-application-messaging-interface.jpg",
         featured: true
     },
     {
@@ -615,7 +615,7 @@ const projects = [
             "JavaScript",
             "Bootstrap"
         ],
-        image: "/property-rental-management-dashboard.jpg",
+        image: "./property-rental-management-dashboard.jpg",
         featured: false
     },
     {
@@ -628,7 +628,7 @@ const projects = [
             "SQL Server",
             "Windows Forms"
         ],
-        image: "/hospital-management-system-interface.jpg",
+        image: "./hospital-management-system-interface.jpg",
         featured: false
     },
     {
@@ -641,7 +641,7 @@ const projects = [
             "Cryptography",
             "Networking"
         ],
-        image: "/vpn-security-application.jpg",
+        image: " ./vpn-security-application.jpg",
         featured: false
     },
     {
@@ -653,7 +653,7 @@ const projects = [
             "C",
             "Graphics Library"
         ],
-        image: "/snake-game-graphics.jpg",
+        image: "./snake-game-graphics.jpg",
         featured: false
     },
     {
@@ -667,7 +667,7 @@ const projects = [
             "JavaScript",
             "PHP"
         ],
-        image: "/pest-control-services-website.jpg",
+        image: "./pest-control-services-website.jpg",
         featured: false
     },
     {
@@ -680,7 +680,7 @@ const projects = [
             "Node.js",
             "MongoDB"
         ],
-        image: "/blood-donation-booking-platform.jpg",
+        image: "./blood-donation-booking-platform.jpg",
         featured: false
     },
     {
@@ -693,7 +693,7 @@ const projects = [
             "Kubernetes",
             "Jenkins"
         ],
-        image: "/devops-infrastructure-dashboard.jpg",
+        image: "./devops-infrastructure-dashboard.jpg",
         featured: false
     }
 ];
@@ -960,7 +960,7 @@ const certificates = [
         organizer: "Manipal University, Jaipur",
         year: "2025",
         type: "hackathon",
-        image: "/pixel-palettes-hackathon-certificate.jpg",
+        image: "./pixel-palettes-hackathon-certificate.jpg",
         description: "Finalist in prestigious Pixel Palettes Hackathon showcasing innovative solutions and technical excellence in competitive programming."
     },
     {
@@ -969,7 +969,7 @@ const certificates = [
         organizer: "Lokmanya Tilak College of Engineering",
         year: "2025",
         type: "hackathon",
-        image: "/codebyte-hackathon-certificate.jpg",
+        image: "./codebyte-hackathon-certificate.jpg",
         description: "Finalist award for outstanding performance in CodeByte Hackathon competition with innovative problem-solving approach."
     },
     {
@@ -978,7 +978,7 @@ const certificates = [
         organizer: "DIT University, Dehradun",
         year: "2025",
         type: "hackathon",
-        image: "/code-storm-hackathon-certificate.jpg",
+        image: "./code-storm-hackathon-certificate.jpg",
         description: "Finalist achievement in Code Storm Hackathon demonstrating advanced problem-solving abilities and technical skills."
     },
     {
@@ -987,7 +987,7 @@ const certificates = [
         organizer: "Thadomal Shahani Engineering College, Mumbai",
         year: "2025",
         type: "hackathon",
-        image: "/tsec-codestorm-hackathon-certificate.jpg",
+        image: "./tsec-codestorm-hackathon-certificate.jpg",
         description: "Finalist recognition at TSEC CodeStorm showcasing excellence in coding and innovative solution development."
     },
     {
@@ -996,7 +996,7 @@ const certificates = [
         organizer: "Pillai HOC College of Engineering, Rasayani",
         year: "2023",
         type: "competition",
-        image: "/state-level-technical-quiz-certificate.jpg",
+        image: "./state-level-technical-quiz-certificate.jpg",
         description: "Participated in state-level technical quiz competition showcasing comprehensive technical knowledge and quick thinking."
     },
     {
@@ -1005,7 +1005,7 @@ const certificates = [
         organizer: "RCF Ltd. (Govt. of India, Thal, Raigad)",
         year: "2023",
         type: "training",
-        image: "/industrial-training-certificate-it.jpg",
+        image: "./industrial-training-certificate-it.jpg",
         description: "Completed 6-week IT trainee program at RCF (Rashtriya Chemicals & Fertilizers Ltd.) with hands-on technical experience."
     },
     {
@@ -1014,7 +1014,7 @@ const certificates = [
         organizer: "Government Authorized",
         year: "2022",
         type: "certification",
-        image: "/ms-cit-certificate-information-technology.jpg",
+        image: "./ms-cit-certificate-information-technology.jpg",
         description: "Maharashtra State Certificate in Information Technology demonstrating comprehensive IT proficiency and knowledge."
     }
 ];
@@ -2215,7 +2215,7 @@ function Footer() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: "https://linkedin.com/in/rohan-pednekar",
+                                            href: "https://linkedin.com/in/rohan-pednekar110304",
                                             target: "_blank",
                                             rel: "noopener noreferrer",
                                             className: "w-10 h-10 rounded-full bg-primary/20 hover:bg-primary/40 text-accent flex items-center justify-center transition-colors",

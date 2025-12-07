@@ -21,7 +21,7 @@ export default function Header() {
       <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="#" className="flex items-center gap-2 group">
           <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center group-hover:scale-110 transition-transform overflow-hidden border-2 border-primary/50 p-1">
-            <Image src="/images/logo.png" alt="RP Logo" width={32} height={32} className="object-contain w-full h-full" />
+            <Image src="./images/logo.png" alt="RP Logo" width={32} height={32} className="object-contain w-full h-full" />
           </div>
           <span className="text-base sm:text-lg md:text-xl font-bold gradient-text hidden sm:block break-words">Rohan M Pednekar</span>
         </Link>

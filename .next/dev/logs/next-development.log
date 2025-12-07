@@ -1,82 +1,14 @@
-[00:00:16.611] Server  LOG      ✓ Ready in 11.8s
-[00:00:19.730] Server  LOG      ○ Compiling / ...
-[00:00:37.060] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:00:37.785] Server  WARN     ⚠ Cross origin request detected from 192.168.0.105 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:11.680] Server  LOG      ✓ Ready in 7.5s
+[00:00:11.694] Server  WARN     ⚠ Cross origin request detected from 192.168.0.105 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:37.862] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:38.741] Browser WARN    Image with src "http://192.168.0.105:3000/images/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:38.898] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:38.898] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:38.898] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.0.105:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.0.105:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765123278730}
-[00:02:02.997] Server  LOG      ✓ Compiled in 870ms
-[00:03:45.715] Server  LOG      ✓ Compiled in 217ms
-[00:03:47.698] Server  LOG      ✓ Compiled in 334ms
-[00:03:51.449] Server  LOG      ✓ Compiled in 288ms
-[00:03:59.959] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:00:14.994] Server  LOG      ○ Compiling / ...
+[00:00:21.123] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:04:01.543] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:02.092] Browser WARN    Image with src "http://192.168.0.105:3000/images/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:04:02.488] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:04:02.488] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:04:02.488] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.0.105:3000/#projects color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.0.105:3000/#projects","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765123482065}
-[00:04:04.854] Server  LOG      ✓ Compiled in 581ms
-[00:08:30.092] Server  LOG      ✓ Compiled in 159ms
-[00:11:07.442] Server  LOG      ✓ Compiled in 855ms
-[00:12:24.725] Server  LOG      ✓ Compiled in 466ms
-[00:13:16.214] Server  LOG      ✓ Compiled in 396ms
-[00:13:27.677] Server  LOG      ✓ Compiled in 227ms
-[00:13:37.150] Server  LOG      ✓ Compiled in 327ms
-[00:13:48.047] Server  LOG      ✓ Compiled in 514ms
-[00:21:41.263] Server  LOG      ✓ Compiled in 262ms
-[00:21:58.185] Server  LOG      ✓ Compiled in 906ms
-[00:22:07.926] Server  LOG      ✓ Compiled in 1606ms
-[00:22:15.435] Server  LOG      ✓ Compiled in 368ms
-[00:22:29.491] Server  LOG      ✓ Compiled in 320ms
-[00:22:42.270] Server  LOG      ✓ Compiled in 358ms
-[00:22:51.301] Server  LOG      ✓ Compiled in 171ms
-[00:23:05.865] Server  LOG      ✓ Compiled in 461ms
-[00:23:14.541] Server  LOG      ✓ Compiled in 463ms
-[00:24:01.850] Server  LOG      ✓ Compiled in 649ms
-[00:24:17.340] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:24:18.427] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:24:18.946] Browser WARN    Image with src "http://192.168.0.105:3000/images/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:24:18.946] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:24:18.946] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:24:18.946] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.0.105:3000/#home color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.0.105:3000/#home","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765124698782}
-[00:25:50.272] Server  LOG      ✓ Compiled in 400ms
-[00:27:07.460] Server  LOG      ✓ Compiled in 202ms
-[00:28:52.367] Server  LOG      ✓ Compiled in 384ms
-[00:29:12.069] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:29:13.060] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:29:13.580] Browser WARN    Image with src "http://192.168.0.105:3000/images/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:29:13.580] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:29:13.580] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:29:13.580] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.0.105:3000/#contact color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.0.105:3000/#contact","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765124993417}
-[00:30:30.106] Server  LOG      ✓ Compiled in 1764ms
-[00:30:32.981] Server  LOG      ✓ Compiled in 1023ms
-[00:31:18.707] Server  LOG      ✓ Compiled in 1148ms
-[00:31:21.696] Server  LOG      ✓ Compiled in 501ms
-[00:32:41.767] Server  LOG      ✓ Compiled in 801ms
-[00:32:45.033] Server  LOG      ✓ Compiled in 398ms
-[00:34:17.568] Server  LOG      ✓ Compiled in 279ms
-[00:34:23.173] Server  LOG      ✓ Compiled in 375ms
-[00:40:52.109] Server  LOG      ✓ Compiled in 445ms
-[00:40:55.216] Server  LOG      ✓ Compiled in 229ms
-[00:40:58.595] Server  LOG      ✓ Compiled in 431ms
-[00:41:00.889] Server  LOG      ✓ Compiled in 295ms
-[00:41:05.404] Server  LOG      ✓ Compiled in 281ms
-[01:06:57.728] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:06:58.506] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:06:58.513] Server  LOG      ✓ Compiled in 0ms
-[01:06:59.092] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:07:00.009] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[01:07:00.009] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[01:07:00.009] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.0.105:3000/#contact color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.0.105:3000/#contact","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765127259545}
-[01:07:01.882] Browser WARN    Image with src "http://192.168.0.105:3000/images/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:07:07.375] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:00:21.795] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:22.594] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:22.594] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:22.594] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.0.105:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.0.105:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765130305416}
+[00:02:58.600] Server  LOG      ✓ Compiled in 329ms
+[00:03:18.607] Server  LOG      ✓ Compiled in 141ms
+[00:03:37.654] Server  LOG      ✓ Compiled in 313ms
+[00:04:18.033] Server  LOG      ✓ Compiled in 1276ms

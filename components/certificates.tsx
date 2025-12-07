@@ -20,7 +20,7 @@ const certificates: Certificate[] = [
     organizer: "Manipal University, Jaipur",
     year: "2025",
     type: "hackathon",
-    image: "/pixel-palettes-hackathon-certificate.jpg",
+    image: "./pixel-palettes-hackathon-certificate.jpg",
     description:
       "Finalist in prestigious Pixel Palettes Hackathon showcasing innovative solutions and technical excellence in competitive programming.",
   },
@@ -30,7 +30,7 @@ const certificates: Certificate[] = [
     organizer: "Lokmanya Tilak College of Engineering",
     year: "2025",
     type: "hackathon",
-    image: "/codebyte-hackathon-certificate.jpg",
+    image: "./codebyte-hackathon-certificate.jpg",
     description:
       "Finalist award for outstanding performance in CodeByte Hackathon competition with innovative problem-solving approach.",
   },
@@ -40,7 +40,7 @@ const certificates: Certificate[] = [
     organizer: "DIT University, Dehradun",
     year: "2025",
     type: "hackathon",
-    image: "/code-storm-hackathon-certificate.jpg",
+    image: "./code-storm-hackathon-certificate.jpg",
     description:
       "Finalist achievement in Code Storm Hackathon demonstrating advanced problem-solving abilities and technical skills.",
   },
@@ -50,7 +50,7 @@ const certificates: Certificate[] = [
     organizer: "Thadomal Shahani Engineering College, Mumbai",
     year: "2025",
     type: "hackathon",
-    image: "/tsec-codestorm-hackathon-certificate.jpg",
+    image: "./tsec-codestorm-hackathon-certificate.jpg",
     description:
       "Finalist recognition at TSEC CodeStorm showcasing excellence in coding and innovative solution development.",
   },
@@ -60,7 +60,7 @@ const certificates: Certificate[] = [
     organizer: "Pillai HOC College of Engineering, Rasayani",
     year: "2023",
     type: "competition",
-    image: "/state-level-technical-quiz-certificate.jpg",
+    image: "./state-level-technical-quiz-certificate.jpg",
     description:
       "Participated in state-level technical quiz competition showcasing comprehensive technical knowledge and quick thinking.",
   },
@@ -70,7 +70,7 @@ const certificates: Certificate[] = [
     organizer: "RCF Ltd. (Govt. of India, Thal, Raigad)",
     year: "2023",
     type: "training",
-    image: "/industrial-training-certificate-it.jpg",
+    image: "./industrial-training-certificate-it.jpg",
     description:
       "Completed 6-week IT trainee program at RCF (Rashtriya Chemicals & Fertilizers Ltd.) with hands-on technical experience.",
   },
@@ -80,7 +80,7 @@ const certificates: Certificate[] = [
     organizer: "Government Authorized",
     year: "2022",
     type: "certification",
-    image: "/ms-cit-certificate-information-technology.jpg",
+    image: "./ms-cit-certificate-information-technology.jpg",
     description:
       "Maharashtra State Certificate in Information Technology demonstrating comprehensive IT proficiency and knowledge.",
   },

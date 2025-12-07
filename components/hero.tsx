@@ -70,7 +70,7 @@ export default function Hero() {
           <div className="space-y-3 md:space-y-4 animate-slide-in">
             <div className="space-y-2">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold gradient-text leading-tight break-words overflow-wrap-anywhere">
-                Rohan M Pednekar
+                Rohan Mahesh Pednekar
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-accent font-semibold animate-text-shimmer bg-gradient-to-r from-accent via-primary to-accent bg-clip-text text-transparent bg-[length:200%_auto]">
                 Full Stack Developer & AI/ML Specialist
@@ -124,7 +124,7 @@ export default function Hero() {
               <div className="absolute inset-4 sm:inset-6 rounded-full bg-gradient-to-br from-primary/20 to-accent/30 blur-sm -z-10 transform translate-x-0 md:translate-x-[7.25rem] translate-y-2 -translate-y-2 md:-translate-y-4" />
               <div className="relative w-full h-full rounded-full overflow-hidden transform translate-x-0 md:translate-x-[7.25rem] -translate-y-2 md:-translate-y-4">
                 <Image
-                  src="/images/profile.png"
+                  src="./images/profile.png"
                   alt="Rohan M Pednekar Profile"
                   fill
                   className="object-contain object-center"

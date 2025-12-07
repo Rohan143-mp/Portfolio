@@ -23,7 +23,7 @@ const projects: Project[] = [
     description:
       "Advanced AI-powered legal document verification system using machine learning algorithms for automated document analysis and fraud detection.",
     technologies: ["Python","React", "Node.js", "ML", "NLP"],
-    image: "/ai-legal-document-verification-interface.jpg",
+    image: "./ai-legal-document-verification-interface.jpg",
     github: "https://github.com/Rohan143-mp/AI-Legal-Verifier",
     featured: true,
   },
@@ -34,7 +34,7 @@ const projects: Project[] = [
     description:
       "ML-based recommendation engine for Indian music with personalized suggestions using collaborative filtering and content-based algorithms.",
     technologies: ["Python", "Pandas", "NumPy", "Scikit-learn"],
-    image: "/music-recommendation-system-dashboard.jpg",
+    image: "./music-recommendation-system-dashboard.jpg",
     featured: true,
   },
   {
@@ -44,7 +44,7 @@ const projects: Project[] = [
     description:
       "Dynamic web application with modern UI/UX principles, responsive design, and real-time features for interactive user engagement.",
     technologies: ["React", "Node.js", "MongoDB"],
-    image: "/modern-web-app-interface.jpg",
+    image: "./modern-web-app-interface.jpg",
     featured: true,
   },
   {
@@ -54,7 +54,7 @@ const projects: Project[] = [
     description:
       "Interactive desktop application for audio processing, management, and real-time audio visualization with advanced sound controls.",
     technologies: ["Java", "Audio API", "Swing"],
-    image: "/audio-processing-application.jpg",
+    image: "./audio-processing-application.jpg",
     featured: true,
   },
   {
@@ -64,7 +64,7 @@ const projects: Project[] = [
     description:
       "Advanced voice assistant powered by AI with natural language processing capabilities for voice recognition and command execution.",
     technologies: ["Python", "NLP", "Speech Recognition"],
-    image: "/voice-assistant-interface.png",
+    image: "./voice-assistant-interface.png",
     featured: true,
   },
   {
@@ -74,7 +74,7 @@ const projects: Project[] = [
     description:
       "Real-time chat application with socket programming and multi-user support for seamless peer-to-peer communication.",
     technologies: ["Java", "Socket Programming", "Threading"],
-    image: "/chat-application-messaging-interface.jpg",
+    image: "./chat-application-messaging-interface.jpg",
     featured: true,
   },
   {
@@ -84,7 +84,7 @@ const projects: Project[] = [
     description:
       "Full-stack rental management system with booking, payment integration, and property management features for landlords and tenants.",
     technologies: ["PHP", "MySQL", "JavaScript", "Bootstrap"],
-    image: "/property-rental-management-dashboard.jpg",
+    image: "./property-rental-management-dashboard.jpg",
     featured: false,
   },
   {
@@ -94,7 +94,7 @@ const projects: Project[] = [
     description:
       "Comprehensive hospital management system with patient records, scheduling, billing, and appointment management capabilities.",
     technologies: ["VB.NET", "SQL Server", "Windows Forms"],
-    image: "/hospital-management-system-interface.jpg",
+    image: "./hospital-management-system-interface.jpg",
     featured: false,
   },
   {
@@ -104,7 +104,7 @@ const projects: Project[] = [
     description:
       "Secure VPN application with encryption, network privacy features, and anonymous browsing capabilities for secure internet access.",
     technologies: ["Java", "Cryptography", "Networking"],
-    image: "/vpn-security-application.jpg",
+    image: " ./vpn-security-application.jpg",
     featured: false,
   },
   {
@@ -114,7 +114,7 @@ const projects: Project[] = [
     description:
       "Classic snake game implementation in C using graphics library with interactive gameplay and score tracking.",
     technologies: ["C", "Graphics Library"],
-    image: "/snake-game-graphics.jpg",
+    image: "./snake-game-graphics.jpg",
     featured: false,
   },
   {
@@ -124,7 +124,7 @@ const projects: Project[] = [
     description:
       "Professional website for pest control services with service listings, booking system, and customer testimonials.",
     technologies: ["HTML", "CSS", "JavaScript", "PHP"],
-    image: "/pest-control-services-website.jpg",
+    image: "./pest-control-services-website.jpg",
     featured: false,
   },
   {
@@ -134,7 +134,7 @@ const projects: Project[] = [
     description:
       "Blood donation platform connecting donors and recipients with scheduling, donor management, and medical history tracking.",
     technologies: ["React Native", "Node.js", "MongoDB"],
-    image: "/blood-donation-booking-platform.jpg",
+    image: "./blood-donation-booking-platform.jpg",
     featured: false,
   },
   {
@@ -144,7 +144,7 @@ const projects: Project[] = [
     description:
       "Comprehensive DevOps implementation with CI/CD pipelines, containerization, and infrastructure automation practices.",
     technologies: ["Docker", "Kubernetes", "Jenkins"],
-    image: "/devops-infrastructure-dashboard.jpg",
+    image: "./devops-infrastructure-dashboard.jpg",
     featured: false,
   },
 ]
