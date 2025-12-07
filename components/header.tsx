@@ -17,13 +17,13 @@ export default function Header() {
   ]
 
   return (
-    <header className="sticky top-0 z-50 w-full backdrop-blur-md bg-background/80 border-b border-border">
+    <header className="sticky top-0 z-50 w-full backdrop-blur-md bg-gradient-to-r from-primary/10 via-accent/10 to-primary/10 border-b border-primary/20">
       <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="#" className="flex items-center gap-2 group">
           <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center group-hover:scale-110 transition-transform overflow-hidden border-2 border-primary/50">
             <Image src="/images/logo.png" alt="RP Logo" width={40} height={40} className="object-contain" />
           </div>
-          <span className="text-xl font-bold gradient-text hidden sm:block">Rohan Pednekar</span>
+          <span className="text-xl font-bold gradient-text hidden sm:block">Rohan M Pednekar</span>
         </Link>
 
         {/* Desktop Menu */}

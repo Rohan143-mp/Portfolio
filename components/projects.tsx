@@ -198,15 +198,15 @@ export default function Projects() {
               <div
                 key={project.id}
                 onClick={() => handleProjectClick(project)}
-                className="flex-shrink-0 w-96 group/card cursor-pointer snap-center transition-all duration-500 hover:scale-110 hover:z-10"
+                className="flex-shrink-0 w-96 group/card cursor-pointer snap-center transition-all duration-500 hover:scale-125 hover:z-10 group-hover:scale-90 group-hover/card:scale-125"
               >
-                <div className="relative rounded-2xl overflow-hidden bg-card border border-border transition-all duration-500 h-80 hover:border-accent/50 hover:shadow-2xl hover:shadow-primary/20">
+                <div className="relative rounded-3xl overflow-hidden bg-card border border-border transition-all duration-500 h-80 hover:border-accent/50 hover:shadow-2xl hover:shadow-primary/20">
                   {/* Full Image Container */}
                   <div className="relative h-full w-full overflow-hidden">
                     <img
                       src={project.image || "/placeholder.svg"}
                       alt={project.title}
-                      className="w-full h-full object-cover transition-transform duration-700"
+                      className="w-full h-full object-cover transition-transform duration-700 rounded-3xl"
                     />
                   </div>
 
